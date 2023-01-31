@@ -1,4 +1,4 @@
-NAME		= iter
+NAME		= array
 
 CXX			= c++
 CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
@@ -6,7 +6,7 @@ CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
 RM		= rm
 RMFLAGS		= -f
 
-INCLUDE		= ./iter.hpp
+INCLUDE		= ./Array.hpp
 
 SRCS 		= main.cpp
 
